@@ -1,6 +1,9 @@
 #my_facenet_project
 tensorflow+python+opencv+mtcnn+facenet 实现人脸识别考勤系统
 
+GitHub项目地址:https://github.com/sofa307/my_project.git
+GitHub项目地址:https://github.com/sofa307/my_project.git
+
 Abstract:本文记录了在学习深度学习过程中，使用tensorflow+python+opencv+mtcnn+facenet，实现人脸识别考勤系统，开发环境为windows 10，
 	实现利用电脑摄像头，对考勤人员进行实时人脸识别考勤，该代码只是用于学习，还存在很多不足，会持续优化
 
@@ -56,3 +59,8 @@ Abstract:本文记录了在学习深度学习过程中，使用tensorflow+python
 1. opencv在显示时中文乱码，opencv支持的中文编码是GBK，并不是UTF-8，一定要注意，但是还是对中文长度有限制。
 2. opencv在读取图片时是BGR通道，需要进行转换为RGB通道
 3. opencv在图像中无法显示中文，不要使用opencv自带的绘图方法，使用PIL库中的Image,ImageDraw,ImageFont模块，进行显示。
+
+
+由于facent的预训练模型、第三方MTCNN模型中pnet, rnet, onet网络结构文件太大，无法上传，所以我已经上传到百度网盘
+链接：https://pan.baidu.com/s/1XM8SRLZOoZ4DdmcwyCI4oA
+提取码：h3m2
